@@ -6,9 +6,9 @@
     <title>Nazma Sarker Portfolio</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body class="font-roboto">
+<body  class="bg-[#0a192f] text-white">
  
-    <header class="bg-[#0a192f] bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] px-3">
+    <header class="bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] px-3">
         <nav class="flex  flex-col items-center justify-between
          text-white font-bold py-5 px-3">
             <a class="text-3xl py-3" href="#">Nazma Sarker</a>
@@ -21,7 +21,7 @@
             </ul>
         </nav>
     </header>
-    <main class="bg-[#0a192f] text-white">
+    <main>
         <div id="#" class="h-lvh flex flex-col items-center px-7 py-[60%] gap-4">
             <h4>Hi, I am</h4>
             <h1 class="text-5xl font-bold">Nazma Sarker</h1>
@@ -258,41 +258,50 @@
                 <h2 class="font-semibold text-2xl text-[#00b1b1]">Contact</h2>
                 <div class="bg-[#00b1b1] w-[50%] h-0.5"></div>
             </div>
-            <div class="w-[80%] m-auto">
+            <div class="w-[80%] m-auto mb-6">
                 Looking to collaborate or need expertise on your next project? <br> I’m open for hire!
             </div>
             <div >
-                <form action="https://formspree.io/f/xanyjbqo" method="post" >
+                <form action="https://formspree.io/f/xanyjbqo" method="post" 
+                class="flex flex-col gap-4 w-[85%] m-auto">
 
-                    <div>
-                        <div>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-2">
                             <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" required>
+                            <input class="bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] 
+                rounded-md h-8" type="text" id="name" name="name" required>
                         </div>
 
-                        <div>
+                        <div class="flex flex-col gap-2">
                             <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" required>
+                            <input class="bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] 
+                rounded-md h-8" type="email" id="email" name="email" required>
                         </div>
 
                         
                     </div>
 
-                    <div>
-                        <div>
+                    <div class="flex flex-col gap-4">
+                        <div class="flex flex-col gap-2"></div>
                             <label for="message">Message:</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <textarea class="bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] 
+                rounded-md h-16" id="message" name="message" rows="5" required></textarea>
         
                         </div>
-            
-                        <button type="submit">Send Message</button>    
+                        <div class="flex justify-center">
+                            <button 
+                            class="bg-[#0a192f] bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9]
+                            rounded-md w-[50%] p-2" type="submit">Send Message</button>
+                        </div>
+        
                     </div>
                     
                 </form>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="bg-[#0a192f] bg-gradient-to-r from-[#00b1b169] to-[#f8551ab9] 
+    px-6 py-10 text-white text-sm text-center">
         <div>
             <div>
                 <div>
@@ -311,7 +320,7 @@
                     <a href="https://www.twitter.com"><i class="fa-brands fa-discord"></i></a>
                 </div>
             </div>
-            Made with <span>&hearts;</span> by Nazma <span>&copy;</span>  Copyright 2025. All rights reserved.
+            Made with <span>&hearts;</span> by Nazma <span>&copy;</span>  Copyright 2025. <br> All rights reserved.
         </div>
     </footer>
     
