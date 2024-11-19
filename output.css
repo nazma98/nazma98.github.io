@@ -586,6 +586,18 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .inline {
   display: inline;
 }
@@ -672,6 +684,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-md {
@@ -979,6 +995,14 @@ video {
 
   .md\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
   }
 
   .md\:grid-cols-2 {
