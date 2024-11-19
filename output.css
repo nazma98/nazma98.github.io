@@ -786,40 +786,19 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-lg {
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-\[\#AAAAAA\] {
-  --tw-shadow-color: #AAAAAA;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-\[\#00b1b1\] {
-  --tw-shadow-color: #00b1b1;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-blue-500\/50 {
-  --tw-shadow-color: rgb(59 130 246 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-cyan-500\/50 {
-  --tw-shadow-color: rgb(6 182 212 / 0.5);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-cyan-500\/70 {
-  --tw-shadow-color: rgb(6 182 212 / 0.7);
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .shadow-cyan-500\/30 {
   --tw-shadow-color: rgb(6 182 212 / 0.3);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
 }
 
 .active\:text-\[\#3c5a9a\]:active {
@@ -836,4 +815,8 @@ video {
 .active\:shadow-white:active {
   --tw-shadow-color: #fff;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.active\:\[text-shadow\:0_0_15px_\#00b1b1\]:active {
+  text-shadow: 0 0 15px #00b1b1;
 }
