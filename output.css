@@ -1162,6 +1162,14 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:h-lvh {
+    height: 100lvh;
+  }
+
+  .lg\:h-screen {
+    height: 100vh;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1172,6 +1180,14 @@ video {
 
   .lg\:justify-around {
     justify-content: space-around;
+  }
+
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .lg\:gap-7 {
+    gap: 1.75rem;
   }
 
   .lg\:px-5 {
@@ -1187,6 +1203,21 @@ video {
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:py-\[20\%\] {
+    padding-top: 20%;
+    padding-bottom: 20%;
+  }
+
+  .lg\:py-\[18\%\] {
+    padding-top: 18%;
+    padding-bottom: 18%;
+  }
+
+  .lg\:py-\[15\%\] {
+    padding-top: 15%;
+    padding-bottom: 15%;
   }
 
   .lg\:text-5xl {
