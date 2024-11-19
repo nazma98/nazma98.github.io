@@ -1036,8 +1036,16 @@ video {
     margin: auto;
   }
 
+  .md\:m-5 {
+    margin: 1.25rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mt-5 {
+    margin-top: 1.25rem;
   }
 
   .md\:grid {
@@ -1102,6 +1110,14 @@ video {
 
   .md\:p-10 {
     padding: 2.5rem;
+  }
+
+  .md\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .md\:text-center {
