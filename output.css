@@ -654,6 +654,10 @@ video {
   width: 20%;
 }
 
+.w-\[40\%\] {
+  width: 40%;
+}
+
 .scale-105 {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
