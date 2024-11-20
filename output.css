@@ -890,6 +890,14 @@ video {
   background-color: rgb(170 170 170 / var(--tw-bg-opacity, 1));
 }
 
+.active\:bg-\[\#00b1b1ce\]:active {
+  background-color: #00b1b1ce;
+}
+
+.active\:bg-\[\#111313ce\]:active {
+  background-color: #111313ce;
+}
+
 .active\:text-xl:active {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -935,6 +943,10 @@ video {
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.active\:\[box-shadow\:0_0_15px_5px_\#00b1b1\]:active {
+  box-shadow: 0 0 15px 5px #00b1b1;
 }
 
 .active\:\[text-shadow\:0_0_10px_\#ffffff\]:active {
@@ -1109,8 +1121,20 @@ video {
     width: 50%;
   }
 
+  .lg\:w-\[90\%\] {
+    width: 90%;
+  }
+
+  .lg\:w-\[45\%\] {
+    width: 45%;
+  }
+
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:flex-row {
@@ -1145,6 +1169,10 @@ video {
     gap: 2rem;
   }
 
+  .lg\:gap-6 {
+    gap: 1.5rem;
+  }
+
   .lg\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
@@ -1154,9 +1182,42 @@ video {
     row-gap: 0.5rem;
   }
 
+  .lg\:gap-y-8 {
+    row-gap: 2rem;
+  }
+
+  .lg\:gap-x-6 {
+    -moz-column-gap: 1.5rem;
+         column-gap: 1.5rem;
+  }
+
+  .lg\:gap-x-5 {
+    -moz-column-gap: 1.25rem;
+         column-gap: 1.25rem;
+  }
+
+  .lg\:gap-y-6 {
+    row-gap: 1.5rem;
+  }
+
   .lg\:py-\[15\%\] {
     padding-top: 15%;
     padding-bottom: 15%;
+  }
+
+  .lg\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .lg\:py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .lg\:text-3xl {
@@ -1188,6 +1249,10 @@ video {
   .lg\:hover\:bg-\[\#aaaaaa\]:hover {
     --tw-bg-opacity: 1;
     background-color: rgb(170 170 170 / var(--tw-bg-opacity, 1));
+  }
+
+  .lg\:hover\:bg-\[\#00b1b1ce\]:hover {
+    background-color: #00b1b1ce;
   }
 
   .lg\:hover\:text-\[\#00b1b1\]:hover {
@@ -1227,6 +1292,10 @@ video {
 
   .lg\:hover\:\[box-shadow\:0_0_10px_\#ffffff\]:hover {
     box-shadow: 0 0 10px #ffffff;
+  }
+
+  .lg\:hover\:\[box-shadow\:0_0_15px_5px_\#00b1b1\]:hover {
+    box-shadow: 0 0 15px 5px #00b1b1;
   }
 
   .lg\:hover\:\[text-shadow\:0_0_15px_\#00b1b1\]:hover {
