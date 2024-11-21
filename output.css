@@ -646,6 +646,10 @@ video {
   width: 85%;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1240,6 +1244,14 @@ video {
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[750\%\] {
+    width: 750%;
+  }
+
+  .lg\:w-\[75\%\] {
+    width: 75%;
   }
 
   .lg\:grid-cols-3 {
